@@ -2,7 +2,7 @@ import os
 import json
 import requests
 import time
-
+from datetime import datetime
 SEARCH_DIR = 'search'
 DONE_DIR = 'done'
 NOT_FOUND_LOG_DIR = 'done'
@@ -80,6 +80,8 @@ def main():
     if not os.path.exists(DONE_DIR):
         os.makedirs(DONE_DIR)
 
+    today_str = datetime.now().strftime('%Y%m%d')
+
     for filename in os.listdir(SEARCH_DIR):
         if filename.endswith('.json'):
             filepath = os.path.join(SEARCH_DIR, filename)
@@ -87,15 +89,18 @@ def main():
 
             updated_data, not_found_apps = process_json_file(filepath)
 
-            # Write updated JSON to done directory
-            done_filepath = os.path.join(DONE_DIR, filename)
+            base_filename, ext = os.path.splitext(filename)
+
+            # Add date to the output filename
+            new_filename = f"{base_filename}_{today_str}{ext}"
+            done_filepath = os.path.join(DONE_DIR, new_filename)
             with open(done_filepath, 'w', encoding='utf-8') as f:
                 json.dump(updated_data, f, indent=2, ensure_ascii=False)
             print(f"Saved updated JSON to {done_filepath}")
 
-            # Write not found apps to a text file
+            # Write not found apps to a text file with date
             if not_found_apps:
-                log_filename = os.path.splitext(filename)[0] + '_not_found.txt'
+                log_filename = f"{base_filename}_{today_str}_not_found.txt"
                 log_filepath = os.path.join(NOT_FOUND_LOG_DIR, log_filename)
                 with open(log_filepath, 'w', encoding='utf-8') as f:
                     f.write("Information could not be found for the following apps:\n")
