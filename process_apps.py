@@ -2,6 +2,7 @@ import os
 import json
 import requests
 import time
+import random
 from datetime import datetime
 SEARCH_DIR = 'search'
 DONE_DIR = 'done'
@@ -55,8 +56,12 @@ def process_json_file(filepath):
             # Check if any of the required fields are empty
             if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
                 print(f"Fetching info for {app_name}...")
+                # API制限を避けるために3〜5秒のランダムな待機
+                wait_time = random.uniform(3, 5)
+                print(f"Waiting for {wait_time:.2f} seconds...")
+                time.sleep(wait_time)
+
                 info = search_app_info(app_name)
-                time.sleep(1) # API制限を避けるために1秒待機
 
                 if info:
                     app['id'] = info.get('id', app.get('id'))
