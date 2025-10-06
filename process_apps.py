@@ -40,8 +40,6 @@ def process_json_file(filepath):
     """
     単一のJSONファイルを処理する
     """
-    not_found_apps = []
-
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -55,13 +53,13 @@ def process_json_file(filepath):
         apps_to_process = data
     else:
         print(f"Warning: Skipping {filepath} due to unrecognized JSON format.")
-        return data, []
+        return data, [], 0
 
-    updated_apps = []
+    total_apps_count = len(apps_to_process)
+
     for app in apps_to_process:
         app_name = app.get('name')
         if not app_name:
-            updated_apps.append(app)
             continue
 
         # Check if any of the required fields are empty
@@ -75,22 +73,24 @@ def process_json_file(filepath):
             info = search_app_info(app_name)
 
             if info:
-                app['id'] = info.get('id', app.get('id'))
-                app['bundleID'] = info.get('bundleID', app.get('bundleID'))
-                app['iconUrlSmall'] = info.get('iconUrlSmall', app.get('iconUrlSmall'))
-                app['iconUrlLarge'] = info.get('iconUrlLarge', app.get('iconUrlLarge'))
-                print(f"Successfully updated {app_name}.")
-            else:
-                not_found_apps.append({'name': app_name, 'id': app.get('id', '')})
-                print(f"Could not find info for {app_name}.")
+                app['id'] = info.get('id') or app.get('id')
+                app['bundleID'] = info.get('bundleID') or app.get('bundleID')
+                app['iconUrlSmall'] = info.get('iconUrlSmall') or app.get('iconUrlSmall')
+                app['iconUrlLarge'] = info.get('iconUrlLarge') or app.get('iconUrlLarge')
+                print(f"API call for {app_name} processed.")
 
-        updated_apps.append(app)
+    # After attempting to update all apps, check which ones are still incomplete.
+    not_found_apps = []
+    for app in apps_to_process:
+        if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
+            not_found_apps.append({'name': app.get('name', 'Unknown'), 'id': app.get('id', '')})
+            print(f"Info for '{app.get('name')}' remains incomplete.")
 
     if is_dict_format:
-        data['apps'] = updated_apps
-        return data, not_found_apps
+        data['apps'] = apps_to_process
+        return data, not_found_apps, total_apps_count
     else:
-        return updated_apps, not_found_apps
+        return apps_to_process, not_found_apps, total_apps_count
 
 def main():
     """
@@ -106,7 +106,7 @@ def main():
             filepath = os.path.join(SEARCH_DIR, filename)
             print(f"Processing {filepath}...")
 
-            updated_data, not_found_apps = process_json_file(filepath)
+            updated_data, not_found_apps, total_apps_count = process_json_file(filepath)
 
             base_filename, ext = os.path.splitext(filename)
 
@@ -122,6 +122,8 @@ def main():
                 log_filename = f"{base_filename}_{today_str}_not_found.txt"
                 log_filepath = os.path.join(NOT_FOUND_LOG_DIR, log_filename)
                 with open(log_filepath, 'w', encoding='utf-8') as f:
+                    f.write(f"Total apps processed: {total_apps_count}\n")
+                    f.write(f"Apps not found: {len(not_found_apps)}\n\n")
                     f.write("Information could not be found for the following apps:\n")
                     for app in not_found_apps:
                         f.write(f"ID: {app['id']}, Name: {app['name']}\n")

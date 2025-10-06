@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Spotify",
+    "id": "",
+    "bundleID": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "name": "ThisAppDoesNotExist12345",
+    "id": "12345",
+    "bundleID": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  }
+]

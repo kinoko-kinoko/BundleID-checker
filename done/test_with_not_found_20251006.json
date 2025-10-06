@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Spotify",
+    "id": 324684580,
+    "bundleID": "com.spotify.client",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/a8/c3/30a8c3fe-71c5-6646-529a-9bb8edc2b543/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/60x60bb.jpg",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/a8/c3/30a8c3fe-71c5-6646-529a-9bb8edc2b543/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/100x100bb.jpg"
+  },
+  {
+    "name": "ThisAppDoesNotExist12345",
+    "id": "12345",
+    "bundleID": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  }
+]
