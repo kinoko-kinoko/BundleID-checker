@@ -1,0 +1,2514 @@
+[
+  {
+    "id": "6447160980",
+    "name": "TikTok",
+    "symbol": "video.fill",
+    "schemes": [
+      "snssdk1233://",
+      "tiktok://"
+    ],
+    "webHosts": [
+      "www.tiktok.com",
+      "tiktok.com"
+    ],
+    "aliases": [
+      "TikTok",
+      "ティックトック"
+    ],
+    "categories": [
+      "social",
+      "entertainment"
+    ],
+    "bundleId": "com.ss.iphone.ugc.tiktok.lite",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/87/4e/25874ec2-e896-73fa-7387-c0ee25a95eff/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/87/4e/25874ec2-e896-73fa-7387-c0ee25a95eff/AppIcon_TikTok-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "389801252",
+    "name": "Instagram",
+    "symbol": "camera.fill",
+    "schemes": [
+      "instagram://"
+    ],
+    "webHosts": [
+      "www.instagram.com",
+      "instagram.com"
+    ],
+    "aliases": [
+      "Instagram",
+      "Insta",
+      "IG",
+      "インスタ",
+      "インスタグラム"
+    ],
+    "categories": [
+      "social",
+      "photo"
+    ],
+    "bundleId": "com.burbn.instagram",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/df/7c/7fdf7c64-d78d-33ca-707f-e2147e91e498/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/df/7c/7fdf7c64-d78d-33ca-707f-e2147e91e498/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "284882215",
+    "name": "Facebook",
+    "symbol": "person.2.fill",
+    "schemes": [
+      "fb://"
+    ],
+    "webHosts": [
+      "www.facebook.com",
+      "facebook.com",
+      "m.facebook.com"
+    ],
+    "aliases": [
+      "Facebook",
+      "FB",
+      "フェイスブック"
+    ],
+    "categories": [
+      "social"
+    ],
+    "bundleId": "com.facebook.Facebook",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ff/c0/78ffc0c9-8baa-2908-da5a-0bf06065e3b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ff/c0/78ffc0c9-8baa-2908-da5a-0bf06065e3b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1386412985",
+    "name": "WhatsApp",
+    "symbol": "message.fill",
+    "schemes": [
+      "whatsapp://"
+    ],
+    "webHosts": [
+      "wa.me",
+      "whatsapp.com"
+    ],
+    "aliases": [
+      "WhatsApp",
+      "ワッツアップ"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "net.whatsapp.WhatsAppSMB",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/3b/3b/6f3b3b20-48fa-86d1-740e-0e205ef8c180/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/3b/3b/6f3b3b20-48fa-86d1-740e-0e205ef8c180/AppIconSMB-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "454638411",
+    "name": "Messenger",
+    "symbol": "message.circle.fill",
+    "schemes": [
+      "fb-messenger://"
+    ],
+    "webHosts": [
+      "m.me",
+      "messenger.com"
+    ],
+    "aliases": [
+      "Messenger",
+      "Facebook Messenger",
+      "メッセンジャー"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "com.facebook.Messenger",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/3f/b4/fe3fb4e9-3ec9-abaf-a86e-34299638a4b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/3f/b4/fe3fb4e9-3ec9-abaf-a86e-34299638a4b5/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "447188370",
+    "name": "Snapchat",
+    "symbol": "camera.viewfinder",
+    "schemes": [
+      "snapchat://"
+    ],
+    "webHosts": [
+      "www.snapchat.com",
+      "snapchat.com"
+    ],
+    "aliases": [
+      "Snapchat",
+      "Snap",
+      "スナップチャット"
+    ],
+    "categories": [
+      "social",
+      "photo"
+    ],
+    "bundleId": "com.toyopagroup.picaboo",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/3b/1a/663b1a90-f61d-2d4f-ec8e-0b3ff6ff8cbb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/3b/1a/663b1a90-f61d-2d4f-ec8e-0b3ff6ff8cbb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "686449807",
+    "name": "Telegram",
+    "symbol": "paperplane.fill",
+    "schemes": [
+      "tg://"
+    ],
+    "webHosts": [
+      "t.me",
+      "telegram.org"
+    ],
+    "aliases": [
+      "Telegram",
+      "テレグラム"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "ph.telegra.Telegraph",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/f3/5e/99f35e1a-af53-9267-8d98-89838bab359a/AppIconLLC-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/f3/5e/99f35e1a-af53-9267-8d98-89838bab359a/AppIconLLC-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "985746746",
+    "name": "Discord",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "discord://"
+    ],
+    "webHosts": [
+      "discord.com",
+      "discord.gg"
+    ],
+    "aliases": [
+      "Discord",
+      "ディスコード"
+    ],
+    "categories": [
+      "social",
+      "gaming"
+    ],
+    "bundleId": "com.hammerandchisel.discord",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/e9/f1/0de9f115-f581-0840-b9d6-7893d8bebaff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/e9/f1/0de9f115-f581-0840-b9d6-7893d8bebaff/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "twitter",
+    "name": "X (Twitter)",
+    "symbol": "at.circle.fill",
+    "schemes": [
+      "twitter://",
+      "x://"
+    ],
+    "webHosts": [
+      "x.com",
+      "twitter.com"
+    ],
+    "aliases": [
+      "Twitter",
+      "X",
+      "ツイッター"
+    ],
+    "categories": [
+      "social",
+      "news"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "288429040",
+    "name": "LinkedIn",
+    "symbol": "briefcase.fill",
+    "schemes": [
+      "linkedin://"
+    ],
+    "webHosts": [
+      "www.linkedin.com",
+      "linkedin.com"
+    ],
+    "aliases": [
+      "LinkedIn",
+      "リンクトイン"
+    ],
+    "categories": [
+      "social",
+      "business"
+    ],
+    "bundleId": "com.linkedin.LinkedIn",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/8c/42/328c42ac-f240-6f5b-42ce-04816c970fe7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/32/8c/42/328c42ac-f240-6f5b-42ce-04816c970fe7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1064216828",
+    "name": "Reddit",
+    "symbol": "bubble.left.and.bubble.right.fill",
+    "schemes": [
+      "reddit://"
+    ],
+    "webHosts": [
+      "www.reddit.com",
+      "reddit.com"
+    ],
+    "aliases": [
+      "Reddit",
+      "レディット"
+    ],
+    "categories": [
+      "social",
+      "news"
+    ],
+    "bundleId": "com.reddit.Reddit",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2f/fa/d02ffae2-596e-9acc-c6a3-cdf703d72329/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/2f/fa/d02ffae2-596e-9acc-c6a3-cdf703d72329/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "429047995",
+    "name": "Pinterest",
+    "symbol": "pin.fill",
+    "schemes": [
+      "pinterest://"
+    ],
+    "webHosts": [
+      "www.pinterest.com",
+      "pinterest.com"
+    ],
+    "aliases": [
+      "Pinterest",
+      "ピンタレスト"
+    ],
+    "categories": [
+      "social",
+      "photo"
+    ],
+    "bundleId": "pinterest",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/67/c4/1267c460-d531-7256-4c2a-61a9086f4647/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/12/67/c4/1267c460-d531-7256-4c2a-61a9086f4647/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "544007664",
+    "name": "YouTube",
+    "symbol": "play.rectangle.fill",
+    "schemes": [
+      "youtube://"
+    ],
+    "webHosts": [
+      "www.youtube.com",
+      "youtube.com",
+      "youtu.be"
+    ],
+    "aliases": [
+      "YouTube",
+      "ユーチューブ"
+    ],
+    "categories": [
+      "entertainment",
+      "video"
+    ],
+    "bundleId": "com.google.ios.youtube",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/60/84/df608426-ce29-5777-56d1-42e386f0d47a/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/60/84/df608426-ce29-5777-56d1-42e386f0d47a/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/512x512bb.png"
+  },
+  {
+    "id": "363590051",
+    "name": "Netflix",
+    "symbol": "tv.fill",
+    "schemes": [
+      "nflx://"
+    ],
+    "webHosts": [
+      "www.netflix.com",
+      "netflix.com"
+    ],
+    "aliases": [
+      "Netflix",
+      "ネットフリックス"
+    ],
+    "categories": [
+      "entertainment",
+      "video"
+    ],
+    "bundleId": "com.netflix.Netflix",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/2b/c1/972bc1b8-e0ca-017d-5b31-cf497f527daa/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/2b/c1/972bc1b8-e0ca-017d-5b31-cf497f527daa/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1446075923",
+    "name": "Disney+",
+    "symbol": "tv.fill",
+    "schemes": [
+      "disneyplus://"
+    ],
+    "webHosts": [
+      "www.disneyplus.com",
+      "disneyplus.com"
+    ],
+    "aliases": [
+      "Disney+",
+      "Disney Plus",
+      "ディズニープラス"
+    ],
+    "categories": [
+      "entertainment",
+      "video"
+    ],
+    "bundleId": "com.disney.disneyplus",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/17/cc/5917ccc3-75b3-e4b5-2471-f831ee57ff17/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/17/cc/5917ccc3-75b3-e4b5-2471-f831ee57ff17/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "545519333",
+    "name": "Amazon Prime Video",
+    "symbol": "tv.fill",
+    "schemes": [
+      "aiv://"
+    ],
+    "webHosts": [
+      "www.primevideo.com",
+      "primevideo.com"
+    ],
+    "aliases": [
+      "Prime Video",
+      "Amazon Prime Video",
+      "プライムビデオ"
+    ],
+    "categories": [
+      "entertainment",
+      "video"
+    ],
+    "bundleId": "com.amazon.aiv.AIVApp",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/13/c3/1c13c369-271e-1b71-c326-a4de43e4f0d3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1c/13/c3/1c13c369-271e-1b71-c326-a4de43e4f0d3/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "hbo-max",
+    "name": "Max (HBO Max)",
+    "symbol": "tv.fill",
+    "schemes": [
+      "hbomax://"
+    ],
+    "webHosts": [
+      "www.max.com",
+      "max.com"
+    ],
+    "aliases": [
+      "Max",
+      "HBO Max",
+      "エイチビーオーマックス"
+    ],
+    "categories": [
+      "entertainment",
+      "video"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "324684580",
+    "name": "Spotify",
+    "symbol": "music.note",
+    "schemes": [
+      "spotify://"
+    ],
+    "webHosts": [
+      "open.spotify.com",
+      "spotify.com"
+    ],
+    "aliases": [
+      "Spotify",
+      "スポティファイ"
+    ],
+    "categories": [
+      "entertainment",
+      "music"
+    ],
+    "bundleId": "com.spotify.client",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/a8/c3/30a8c3fe-71c5-6646-529a-9bb8edc2b543/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/a8/c3/30a8c3fe-71c5-6646-529a-9bb8edc2b543/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1598433714",
+    "name": "Apple Music",
+    "symbol": "music.note",
+    "schemes": [
+      "music://",
+      "musics://",
+      "audio-player-event://"
+    ],
+    "webHosts": [
+      "music.apple.com"
+    ],
+    "aliases": [
+      "Apple Music",
+      "アップルミュージック"
+    ],
+    "categories": [
+      "entertainment",
+      "music"
+    ],
+    "bundleId": "com.apple.music.classical",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/ba/cc/77bacc4c-1275-f5af-3c71-40488a37e4e0/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/ba/cc/77bacc4c-1275-f5af-3c71-40488a37e4e0/AppIcon-0-1x_U007epad-0-0-0-1-0-0-85-220-0.png/512x512bb.png"
+  },
+  {
+    "id": "336353151",
+    "name": "SoundCloud",
+    "symbol": "music.note",
+    "schemes": [
+      "soundcloud://"
+    ],
+    "webHosts": [
+      "soundcloud.com"
+    ],
+    "aliases": [
+      "SoundCloud",
+      "サウンドクラウド"
+    ],
+    "categories": [
+      "entertainment",
+      "music"
+    ],
+    "bundleId": "com.soundcloud.TouchApp",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/b6/ef/07b6ef05-88a4-fade-c307-804a54faf438/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/b6/ef/07b6ef05-88a4-fade-c307-804a54faf438/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "431946152",
+    "name": "Roblox",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "roblox://"
+    ],
+    "webHosts": [
+      "www.roblox.com",
+      "roblox.com"
+    ],
+    "aliases": [
+      "Roblox",
+      "ロブロックス"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.roblox.robloxmobile",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/4e/ab/c74eab34-19fd-a922-f9cd-5e716793e056/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/4e/ab/c74eab34-19fd-a922-f9cd-5e716793e056/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "479516143",
+    "name": "Minecraft",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "minecraft://"
+    ],
+    "webHosts": [
+      "www.minecraft.net",
+      "minecraft.net"
+    ],
+    "aliases": [
+      "Minecraft",
+      "マインクラフト"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.mojang.minecraftpe",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/89/97/ae899790-ab3e-3434-18ae-56780e735d0a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/89/97/ae899790-ab3e-3434-18ae-56780e735d0a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1351168404",
+    "name": "Among Us",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "amongus://"
+    ],
+    "webHosts": [
+      "www.innersloth.com",
+      "innersloth.com"
+    ],
+    "aliases": [
+      "Among Us",
+      "アマングアス"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.innersloth.amongus",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c0/a6/5fc0a632-8797-bb3d-4287-65fed3570029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/c0/a6/5fc0a632-8797-bb3d-4287-65fed3570029/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1330123889",
+    "name": "PUBG Mobile",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "pubgmobile://"
+    ],
+    "webHosts": [
+      "pubgmobile.com"
+    ],
+    "aliases": [
+      "PUBG Mobile",
+      "PUBG",
+      "パブジー"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.tencent.ig",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/b4/be/9bb4be6c-c6b5-d8e7-e92a-ebbbdfd2204e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/b4/be/9bb4be6c-c6b5-d8e7-e92a-ebbbdfd2204e/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "553834731",
+    "name": "Candy Crush Saga",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "candycrushsaga://"
+    ],
+    "webHosts": [
+      "king.com"
+    ],
+    "aliases": [
+      "Candy Crush",
+      "キャンディクラッシュ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.midasplayer.apps.candycrushsaga",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/c3/76/64c37621-2f23-b819-1f87-f12437d11ca2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/c3/76/64c37621-2f23-b819-1f87-f12437d11ca2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1094591345",
+    "name": "Pokémon GO",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "pokemongo://"
+    ],
+    "webHosts": [
+      "pokemongolive.com"
+    ],
+    "aliases": [
+      "Pokémon GO",
+      "Pokemon GO",
+      "ポケモンGO"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.nianticlabs.pokemongo",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/7a/cf/647acf96-e5cb-8193-fec7-cf42ef70a9e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/7a/cf/647acf96-e5cb-8193-fec7-cf42ef70a9e7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "529479190",
+    "name": "Clash of Clans",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "clashofclans://"
+    ],
+    "webHosts": [
+      "supercell.com"
+    ],
+    "aliases": [
+      "Clash of Clans",
+      "COC",
+      "クラクラ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.supercell.magic",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/bd/4c/9ebd4c14-7bef-dc61-43e7-803f0914f84d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9e/bd/4c/9ebd4c14-7bef-dc61-43e7-803f0914f84d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1053012308",
+    "name": "Clash Royale",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "clashroyale://"
+    ],
+    "webHosts": [
+      "supercell.com"
+    ],
+    "aliases": [
+      "Clash Royale",
+      "クラロワ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.supercell.scroll",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/bf/d6/1bbfd681-8166-eb8c-cbdb-d577ceee9f42/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1b/bf/d6/1bbfd681-8166-eb8c-cbdb-d577ceee9f42/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "brawl-stars",
+    "name": "Brawl Stars",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "brawlstars://"
+    ],
+    "webHosts": [
+      "supercell.com"
+    ],
+    "aliases": [
+      "Brawl Stars",
+      "ブロスタ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "6483539426",
+    "name": "Fortnite",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "fortnite://"
+    ],
+    "webHosts": [
+      "www.fortnite.com",
+      "fortnite.com"
+    ],
+    "aliases": [
+      "Fortnite",
+      "フォートナイト"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "com.epicgames.FortniteGame",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/41/0b/6b410bb0-30a9-f7a8-1a3a-3007dcb6de16/AppIcon-0-0-1x_U007emarketing-0-7-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6b/41/0b/6b410bb0-30a9-f7a8-1a3a-3007dcb6de16/AppIcon-0-0-1x_U007emarketing-0-7-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "call-of-duty-mobile",
+    "name": "Call of Duty Mobile",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "codmobile://"
+    ],
+    "webHosts": [
+      "www.callofduty.com"
+    ],
+    "aliases": [
+      "Call of Duty Mobile",
+      "COD Mobile",
+      "コールオブデューティ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "379693831",
+    "name": "Amazon",
+    "symbol": "bag.fill",
+    "schemes": [
+      "amazon://"
+    ],
+    "webHosts": [
+      "www.amazon.com",
+      "amazon.com"
+    ],
+    "aliases": [
+      "Amazon",
+      "アマゾン"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.audible.iphone",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/c3/39/b0c33958-6ec8-bb41-1ab3-14bc45ca0d7b/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/c3/39/b0c33958-6ec8-bb41-1ab3-14bc45ca0d7b/AppIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "393624808",
+    "name": "Temu",
+    "symbol": "bag.fill",
+    "schemes": [
+      "temu://"
+    ],
+    "webHosts": [
+      "www.temu.com",
+      "temu.com"
+    ],
+    "aliases": [
+      "Temu",
+      "テム"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.iWriteMusicApp.iWriteMusicPaid",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/34/f1/8a34f155-ee70-52fb-aeca-faa1a044f567/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/34/f1/8a34f155-ee70-52fb-aeca-faa1a044f567/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "878577184",
+    "name": "SHEIN",
+    "symbol": "bag.fill",
+    "schemes": [
+      "shein://"
+    ],
+    "webHosts": [
+      "www.shein.com",
+      "shein.com"
+    ],
+    "aliases": [
+      "SHEIN",
+      "シーイン"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "zzkko.com.ZZKKO",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/c2/77/cbc277af-5dcf-fa10-ab38-40583c4b2476/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/c2/77/cbc277af-5dcf-fa10-ab38-40583c4b2476/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "436672029",
+    "name": "AliExpress",
+    "symbol": "bag.fill",
+    "schemes": [
+      "aliexpress://"
+    ],
+    "webHosts": [
+      "www.aliexpress.com",
+      "aliexpress.com"
+    ],
+    "aliases": [
+      "AliExpress",
+      "アリエクスプレス"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.alibaba.iAliexpress",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/b2/34/40b234fc-8151-91e7-b17a-95d42ce3e7a8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/40/b2/34/40b234fc-8151-91e7-b17a-95d42ce3e7a8/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "332737626",
+    "name": "Wish",
+    "symbol": "bag.fill",
+    "schemes": [
+      "wish://"
+    ],
+    "webHosts": [
+      "www.wish.com",
+      "wish.com"
+    ],
+    "aliases": [
+      "Wish",
+      "ウィッシュ"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "net.clemensgrossmann.wortr",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/3d/ed/e3/3dede307-9262-28e5-9bca-c4f4236f03dc/contsched.pqfhenwh.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/3d/ed/e3/3dede307-9262-28e5-9bca-c4f4236f03dc/contsched.pqfhenwh.png/512x512bb.png"
+  },
+  {
+    "id": "282614216",
+    "name": "eBay",
+    "symbol": "bag.fill",
+    "schemes": [
+      "ebay://"
+    ],
+    "webHosts": [
+      "www.ebay.com",
+      "ebay.com"
+    ],
+    "aliases": [
+      "eBay",
+      "イーベイ"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.ebay.iphone",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/f2/b7/7cf2b77a-4bf9-d27e-b1bf-b67d0097b910/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7c/f2/b7/7cf2b77a-4bf9-d27e-b1bf-b67d0097b910/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "477128284",
+    "name": "Etsy",
+    "symbol": "bag.fill",
+    "schemes": [
+      "etsy://"
+    ],
+    "webHosts": [
+      "www.etsy.com",
+      "etsy.com"
+    ],
+    "aliases": [
+      "Etsy",
+      "エッツィー"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.etsy.etsyforios",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/6f/0f/a76f0fa2-6489-1938-8206-1dce977d7fe0/BOEAppIcon-0-0-1x_U007epad-0-1-0-0-0-0-GLES2_U002c0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/6f/0f/a76f0fa2-6489-1938-8206-1dce977d7fe0/BOEAppIcon-0-0-1x_U007epad-0-1-0-0-0-0-GLES2_U002c0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "google-maps",
+    "name": "Google Maps",
+    "symbol": "map.fill",
+    "schemes": [
+      "comgooglemaps://"
+    ],
+    "webHosts": [
+      "maps.google.com",
+      "maps.app.goo.gl"
+    ],
+    "aliases": [
+      "Google Maps",
+      "グーグルマップ"
+    ],
+    "categories": [
+      "navigation",
+      "utility"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "323229106",
+    "name": "Waze",
+    "symbol": "map.fill",
+    "schemes": [
+      "waze://"
+    ],
+    "webHosts": [
+      "www.waze.com",
+      "waze.com"
+    ],
+    "aliases": [
+      "Waze",
+      "ウェイズ"
+    ],
+    "categories": [
+      "navigation",
+      "utility"
+    ],
+    "bundleId": "com.waze.iphone",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/14/4b/9f144b08-26d0-ffbb-ba80-6050d360dc26/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/14/4b/9f144b08-26d0-ffbb-ba80-6050d360dc26/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "535886823",
+    "name": "Google Chrome",
+    "symbol": "globe",
+    "schemes": [
+      "googlechrome://",
+      "googlechromes://"
+    ],
+    "webHosts": [
+      "www.google.com"
+    ],
+    "aliases": [
+      "Chrome",
+      "Google Chrome",
+      "クローム"
+    ],
+    "categories": [
+      "utility",
+      "productivity"
+    ],
+    "bundleId": "com.google.chrome.ios",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/9a/9c/3c9a9cdf-f004-7baf-26a7-337a7627f3ef/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/9a/9c/3c9a9cdf-f004-7baf-26a7-337a7627f3ef/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "989804926",
+    "name": "Firefox",
+    "symbol": "globe",
+    "schemes": [
+      "firefox://"
+    ],
+    "webHosts": [
+      "www.mozilla.org"
+    ],
+    "aliases": [
+      "Firefox",
+      "ファイアフォックス"
+    ],
+    "categories": [
+      "utility",
+      "productivity"
+    ],
+    "bundleId": "org.mozilla.ios.Firefox",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/13/ae/2013aee5-3114-c632-2679-2167f602642e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/13/ae/2013aee5-3114-c632-2679-2167f602642e/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "422689480",
+    "name": "Gmail",
+    "symbol": "envelope.fill",
+    "schemes": [
+      "googlegmail://"
+    ],
+    "webHosts": [
+      "mail.google.com",
+      "gmail.com"
+    ],
+    "aliases": [
+      "Gmail",
+      "ジーメール"
+    ],
+    "categories": [
+      "productivity",
+      "communication"
+    ],
+    "bundleId": "com.google.Gmail",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/82/36/2d82363b-2fde-efd0-c743-bd76553b2446/logo_gmail_2020q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220-0.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/82/36/2d82363b-2fde-efd0-c743-bd76553b2446/logo_gmail_2020q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-0-85-220-0.png/512x512bb.png"
+  },
+  {
+    "id": "951937596",
+    "name": "Microsoft Outlook",
+    "symbol": "envelope.fill",
+    "schemes": [
+      "ms-outlook://"
+    ],
+    "webHosts": [
+      "outlook.live.com",
+      "outlook.com"
+    ],
+    "aliases": [
+      "Outlook",
+      "Microsoft Outlook",
+      "アウトルック"
+    ],
+    "categories": [
+      "productivity",
+      "communication"
+    ],
+    "bundleId": "com.microsoft.Office.Outlook",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/20/33/ec20335d-0786-dcca-3b16-23d05ccb9fb5/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/20/33/ec20335d-0786-dcca-3b16-23d05ccb9fb5/AppIcon-outlook.prod-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive",
+    "symbol": "icloud.fill",
+    "schemes": [
+      "googledrive://"
+    ],
+    "webHosts": [
+      "drive.google.com"
+    ],
+    "aliases": [
+      "Google Drive",
+      "グーグルドライブ"
+    ],
+    "categories": [
+      "productivity",
+      "utility"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "327630330",
+    "name": "Dropbox",
+    "symbol": "icloud.fill",
+    "schemes": [
+      "dbapi-1://"
+    ],
+    "webHosts": [
+      "www.dropbox.com",
+      "dropbox.com"
+    ],
+    "aliases": [
+      "Dropbox",
+      "ドロップボックス"
+    ],
+    "categories": [
+      "productivity",
+      "utility"
+    ],
+    "bundleId": "com.getdropbox.Dropbox",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/5f/87/575f8756-8123-305f-cc5b-a616c53647f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/5f/87/575f8756-8123-305f-cc5b-a616c53647f4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1113153706",
+    "name": "Microsoft Teams",
+    "symbol": "person.2.fill",
+    "schemes": [
+      "msteams://"
+    ],
+    "webHosts": [
+      "teams.microsoft.com"
+    ],
+    "aliases": [
+      "Teams",
+      "Microsoft Teams",
+      "チームズ"
+    ],
+    "categories": [
+      "productivity",
+      "communication"
+    ],
+    "bundleId": "com.microsoft.skype.teams",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/ee/68/9fee68ac-11cd-2bd9-04f4-ccaaf4648619/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9f/ee/68/9fee68ac-11cd-2bd9-04f4-ccaaf4648619/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "546505307",
+    "name": "Zoom",
+    "symbol": "video.fill",
+    "schemes": [
+      "zoomus://"
+    ],
+    "webHosts": [
+      "zoom.us"
+    ],
+    "aliases": [
+      "Zoom",
+      "ズーム"
+    ],
+    "categories": [
+      "productivity",
+      "communication"
+    ],
+    "bundleId": "us.zoom.videomeetings",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/76/c7/c176c71f-defc-41a7-5c96-a9635d3c69a8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/76/c7/c176c71f-defc-41a7-5c96-a9635d3c69a8/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "skype",
+    "name": "Skype",
+    "symbol": "video.fill",
+    "schemes": [
+      "skype://"
+    ],
+    "webHosts": [
+      "www.skype.com",
+      "skype.com"
+    ],
+    "aliases": [
+      "Skype",
+      "スカイプ"
+    ],
+    "categories": [
+      "productivity",
+      "communication"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "6448311069",
+    "name": "ChatGPT",
+    "symbol": "brain.head.profile",
+    "schemes": [
+      "chatgpt://"
+    ],
+    "webHosts": [
+      "chat.openai.com",
+      "chatgpt.com"
+    ],
+    "aliases": [
+      "ChatGPT",
+      "チャットGPT"
+    ],
+    "categories": [
+      "productivity",
+      "ai"
+    ],
+    "bundleId": "com.openai.chat",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/53/17/4253170a-f7ce-eb3b-e5a4-e3788e008560/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/42/53/17/4253170a-f7ce-eb3b-e5a4-e3788e008560/AppIcon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "6477489729",
+    "name": "Google Gemini",
+    "symbol": "brain.head.profile",
+    "schemes": [
+      "googlegemini://"
+    ],
+    "webHosts": [
+      "gemini.google.com"
+    ],
+    "aliases": [
+      "Gemini",
+      "Google Gemini",
+      "ジェミニ"
+    ],
+    "categories": [
+      "productivity",
+      "ai"
+    ],
+    "bundleId": "com.google.gemini",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/60/e8/3e60e8d1-d0c4-9092-0ee4-68e2cfbf4218/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3e/60/e8/3e60e8d1-d0c4-9092-0ee4-68e2cfbf4218/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/512x512bb.png"
+  },
+  {
+    "id": "6472538445",
+    "name": "Microsoft Copilot",
+    "symbol": "brain.head.profile",
+    "schemes": [
+      "mscopilot://"
+    ],
+    "webHosts": [
+      "copilot.microsoft.com"
+    ],
+    "aliases": [
+      "Copilot",
+      "Microsoft Copilot",
+      "コパイロット"
+    ],
+    "categories": [
+      "productivity",
+      "ai"
+    ],
+    "bundleId": "com.microsoft.copilot",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/7c/ad/4e7cad08-28ed-f3f6-5b56-5b5e6140fe49/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/7c/ad/4e7cad08-28ed-f3f6-5b56-5b5e6140fe49/AppIcon_Production-0-0-1x_U007epad-0-4-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "283646709",
+    "name": "PayPal",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "paypal://"
+    ],
+    "webHosts": [
+      "www.paypal.com",
+      "paypal.com"
+    ],
+    "aliases": [
+      "PayPal",
+      "ペイパル"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "com.yourcompany.PPClient",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/31/22/1f312232-4c89-61c3-494d-80c3d6f4423e/AppIcon-0-0-1x_U007ephone-0-1-0-GLES2_U002c0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/31/22/1f312232-4c89-61c3-494d-80c3d6f4423e/AppIcon-0-0-1x_U007ephone-0-1-0-GLES2_U002c0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "apple-pay",
+    "name": "Apple Pay",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "shoebox://"
+    ],
+    "webHosts": [
+      "www.apple.com"
+    ],
+    "aliases": [
+      "Apple Pay",
+      "アップルペイ"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "google-pay",
+    "name": "Google Pay",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "googlepay://"
+    ],
+    "webHosts": [
+      "pay.google.com"
+    ],
+    "aliases": [
+      "Google Pay",
+      "グーグルペイ"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "711923939",
+    "name": "Cash App",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "cashapp://"
+    ],
+    "webHosts": [
+      "cash.app"
+    ],
+    "aliases": [
+      "Cash App",
+      "キャッシュアップ"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "com.squareup.cash",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/d9/9d/5fd99d48-98fc-a378-47ff-0c6022a31da0/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/d9/9d/5fd99d48-98fc-a378-47ff-0c6022a31da0/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "351727428",
+    "name": "Venmo",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "venmo://"
+    ],
+    "webHosts": [
+      "venmo.com"
+    ],
+    "aliases": [
+      "Venmo",
+      "ベンモ"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "net.kortina.labs.Venmo",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/80/eb/4b80eb99-8a93-e00e-1450-4da40ef0d566/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/80/eb/4b80eb99-8a93-e00e-1450-4da40ef0d566/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "932493382",
+    "name": "Revolut",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "revolut://"
+    ],
+    "webHosts": [
+      "www.revolut.com",
+      "revolut.com"
+    ],
+    "aliases": [
+      "Revolut",
+      "レボリュート"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "com.revolut.revolut",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/44/67/224467c1-b457-f43b-188c-4a72e011d072/AppIcon-Production-0-1x_U007epad-0-1-85-220-0.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/22/44/67/224467c1-b457-f43b-188c-4a72e011d072/AppIcon-Production-0-1x_U007epad-0-1-85-220-0.png/512x512bb.png"
+  },
+  {
+    "id": "6744233117",
+    "name": "Uber",
+    "symbol": "car.fill",
+    "schemes": [
+      "uber://"
+    ],
+    "webHosts": [
+      "uber.com"
+    ],
+    "aliases": [
+      "Uber",
+      "ウーバー"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "bundleId": "jp.enish.jongevo",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/2e/25/5c2e2594-eef1-7635-d611-8751dfdd4446/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/2e/25/5c2e2594-eef1-7635-d611-8751dfdd4446/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "529379082",
+    "name": "Lyft",
+    "symbol": "car.fill",
+    "schemes": [
+      "lyft://"
+    ],
+    "webHosts": [
+      "www.lyft.com",
+      "lyft.com"
+    ],
+    "aliases": [
+      "Lyft",
+      "リフト"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "bundleId": "com.zimride.instant",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/ed/5c/f8ed5c2b-a620-5da7-dfe9-495e6e59583f/PassengerAppIcon-0-0-1x_U007ephone-0-1-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/ed/5c/f8ed5c2b-a620-5da7-dfe9-495e6e59583f/PassengerAppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1058959277",
+    "name": "Uber Eats",
+    "symbol": "takeoutbag.and.cup.and.straw.fill",
+    "schemes": [
+      "ubereats://"
+    ],
+    "webHosts": [
+      "www.ubereats.com",
+      "ubereats.com"
+    ],
+    "aliases": [
+      "Uber Eats",
+      "ウーバーイーツ"
+    ],
+    "categories": [
+      "food"
+    ],
+    "bundleId": "com.ubercab.UberEats",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/5b/a2/755ba279-228a-8260-a2bf-0bca4e93a00a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/5b/a2/755ba279-228a-8260-a2bf-0bca4e93a00a/AppIcon-0-0-1x_U007emarketing-0-8-0-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1451754591",
+    "name": "DoorDash",
+    "symbol": "takeoutbag.and.cup.and.straw.fill",
+    "schemes": [
+      "doordash://"
+    ],
+    "webHosts": [
+      "www.doordash.com",
+      "doordash.com"
+    ],
+    "aliases": [
+      "DoorDash",
+      "ドアダッシュ"
+    ],
+    "categories": [
+      "food"
+    ],
+    "bundleId": "com.doordash.dasher",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1a/e7/0c1ae73e-8814-0eba-720f-40f11c927674/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/1a/e7/0c1ae73e-8814-0eba-720f-40f11c927674/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1452071632",
+    "name": "Grubhub",
+    "symbol": "takeoutbag.and.cup.and.straw.fill",
+    "schemes": [
+      "grubhub://"
+    ],
+    "webHosts": [
+      "www.grubhub.com",
+      "grubhub.com"
+    ],
+    "aliases": [
+      "Grubhub",
+      "グラブハブ"
+    ],
+    "categories": [
+      "food"
+    ],
+    "bundleId": "com.grubhub.delivery",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/6f/06/516f063a-aa40-eb83-ed53-2e7d47f96a5d/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/6f/06/516f063a-aa40-eb83-ed53-2e7d47f96a5d/AppIcon-0-0-1x_U007emarketing-0-6-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "401626263",
+    "name": "Airbnb",
+    "symbol": "house.fill",
+    "schemes": [
+      "airbnb://"
+    ],
+    "webHosts": [
+      "www.airbnb.com",
+      "airbnb.com"
+    ],
+    "aliases": [
+      "Airbnb",
+      "エアビーアンドビー"
+    ],
+    "categories": [
+      "travel"
+    ],
+    "bundleId": "com.airbnb.app",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/5a/91/3b5a912c-dd50-0ba2-2e35-98b94e4f6328/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3b/5a/91/3b5a912c-dd50-0ba2-2e35-98b94e4f6328/AppIcon-0-0-1x_U007epad-0-1-0-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "367003839",
+    "name": "Booking.com",
+    "symbol": "house.fill",
+    "schemes": [
+      "booking://"
+    ],
+    "webHosts": [
+      "www.booking.com",
+      "booking.com"
+    ],
+    "aliases": [
+      "Booking.com",
+      "ブッキング"
+    ],
+    "categories": [
+      "travel"
+    ],
+    "bundleId": "com.booking.BookingApp",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/4c/a1/424ca1ae-2e94-74e0-47c0-c06b1df7ad28/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/4c/a1/424ca1ae-2e94-74e0-47c0-c06b1df7ad28/AppIcon-0-0-1x_U007epad-0-9-0-85-220.jpeg/512x512bb.png"
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia",
+    "symbol": "airplane",
+    "schemes": [
+      "expedia://"
+    ],
+    "webHosts": [
+      "www.expedia.com",
+      "expedia.com"
+    ],
+    "aliases": [
+      "Expedia",
+      "エクスペディア"
+    ],
+    "categories": [
+      "travel"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "284876795",
+    "name": "TripAdvisor",
+    "symbol": "map.fill",
+    "schemes": [
+      "tripadvisor://"
+    ],
+    "webHosts": [
+      "www.tripadvisor.com",
+      "tripadvisor.com"
+    ],
+    "aliases": [
+      "TripAdvisor",
+      "トリップアドバイザー"
+    ],
+    "categories": [
+      "travel"
+    ],
+    "bundleId": "com.tripadvisor.LocalPicks",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/67/92/93679256-6913-6ac2-89ba-1116b8aa8a23/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/67/92/93679256-6913-6ac2-89ba-1116b8aa8a23/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "570060128",
+    "name": "Duolingo",
+    "symbol": "book.fill",
+    "schemes": [
+      "duolingo://"
+    ],
+    "webHosts": [
+      "www.duolingo.com",
+      "duolingo.com"
+    ],
+    "aliases": [
+      "Duolingo",
+      "デュオリンゴ"
+    ],
+    "categories": [
+      "education"
+    ],
+    "bundleId": "com.duolingo.DuolingoMobile",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/b1/e0/7ab1e00a-0cd7-c239-6eae-a681f19599ff/AppIcon-0-0-1x_U007epad-0-1-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/b1/e0/7ab1e00a-0cd7-c239-6eae-a681f19599ff/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "469863705",
+    "name": "Khan Academy",
+    "symbol": "book.fill",
+    "schemes": [
+      "khanacademy://"
+    ],
+    "webHosts": [
+      "www.khanacademy.org",
+      "khanacademy.org"
+    ],
+    "aliases": [
+      "Khan Academy",
+      "カーンアカデミー"
+    ],
+    "categories": [
+      "education"
+    ],
+    "bundleId": "org.khanacademy.Khan-Academy",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/9e/3b/6f9e3b91-14aa-4bb7-69da-658ab083e90d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6f/9e/3b/6f9e3b91-14aa-4bb7-69da-658ab083e90d/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "symbol": "book.fill",
+    "schemes": [
+      "coursera://"
+    ],
+    "webHosts": [
+      "www.coursera.org",
+      "coursera.org"
+    ],
+    "aliases": [
+      "Coursera",
+      "コーセラ"
+    ],
+    "categories": [
+      "education"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "954570581",
+    "name": "Udemy",
+    "symbol": "book.fill",
+    "schemes": [
+      "udemy://"
+    ],
+    "webHosts": [
+      "www.udemy.com",
+      "udemy.com"
+    ],
+    "aliases": [
+      "Udemy",
+      "ユーデミー"
+    ],
+    "categories": [
+      "education"
+    ],
+    "bundleId": "com.udemy.ufb",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/05/f2/1705f2a2-f47f-6a47-478f-f3064928d97b/UFBIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/05/f2/1705f2a2-f47f-6a47-478f-f3064928d97b/UFBIcon-0-0-1x_U007emarketing-0-0-0-8-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "493145008",
+    "name": "Headspace",
+    "symbol": "brain.head.profile",
+    "schemes": [
+      "headspace://"
+    ],
+    "webHosts": [
+      "www.headspace.com",
+      "headspace.com"
+    ],
+    "aliases": [
+      "Headspace",
+      "ヘッドスペース"
+    ],
+    "categories": [
+      "health"
+    ],
+    "bundleId": "com.getsomeheadspace.headspace",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/e3/cc/efe3cca5-38b0-e195-70d0-e57778fc3551/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/e3/cc/efe3cca5-38b0-e195-70d0-e57778fc3551/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "571800810",
+    "name": "Calm",
+    "symbol": "brain.head.profile",
+    "schemes": [
+      "calm://"
+    ],
+    "webHosts": [
+      "www.calm.com",
+      "calm.com"
+    ],
+    "aliases": [
+      "Calm",
+      "カーム"
+    ],
+    "categories": [
+      "health"
+    ],
+    "bundleId": "com.calm.calmapp",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/ee/9f/d3ee9fc5-7296-570f-d478-263630170808/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d3/ee/9f/d3ee9fc5-7296-570f-d478-263630170808/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "341232718",
+    "name": "MyFitnessPal",
+    "symbol": "heart.fill",
+    "schemes": [
+      "myfitnesspal://"
+    ],
+    "webHosts": [
+      "www.myfitnesspal.com",
+      "myfitnesspal.com"
+    ],
+    "aliases": [
+      "MyFitnessPal",
+      "マイフィットネスパル"
+    ],
+    "categories": [
+      "health"
+    ],
+    "bundleId": "com.myfitnesspal.mfp",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/2b/25/9f2b25ff-d7e9-791b-8b74-001a3a477214/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/2b/25/9f2b25ff-d7e9-791b-8b74-001a3a477214/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "426826309",
+    "name": "Strava",
+    "symbol": "figure.run",
+    "schemes": [
+      "strava://"
+    ],
+    "webHosts": [
+      "www.strava.com",
+      "strava.com"
+    ],
+    "aliases": [
+      "Strava",
+      "ストラバ"
+    ],
+    "categories": [
+      "health",
+      "fitness"
+    ],
+    "bundleId": "com.strava.stravaride",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/4e/12/bd4e12d6-405e-7685-abce-5cc1fc1945e1/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/4e/12/bd4e12d6-405e-7685-abce-5cc1fc1945e1/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "443904275",
+    "name": "LINE",
+    "symbol": "message.fill",
+    "schemes": [
+      "line://"
+    ],
+    "webHosts": [
+      "line.me"
+    ],
+    "aliases": [
+      "LINE",
+      "ライン"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "jp.naver.line",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/d7/86/09d786f9-b00a-62c4-a60e-72789bf97cde/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/09/d7/86/09d786f9-b00a-62c4-a60e-72789bf97cde/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "299147843",
+    "name": "Yahoo! JAPAN",
+    "symbol": "globe",
+    "schemes": [
+      "yahoo://"
+    ],
+    "webHosts": [
+      "www.yahoo.co.jp",
+      "yahoo.co.jp"
+    ],
+    "aliases": [
+      "Yahoo",
+      "ヤフー"
+    ],
+    "categories": [
+      "utility",
+      "news"
+    ],
+    "bundleId": "jp.co.yahoo.ipn.appli",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/d7/e0/4ed7e007-0806-1ebb-f170-0f972b63cb53/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4e/d7/e0/4ed7e007-0806-1ebb-f170-0f972b63cb53/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1435783608",
+    "name": "PayPay",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "paypay://"
+    ],
+    "webHosts": [
+      "paypay.ne.jp"
+    ],
+    "aliases": [
+      "PayPay",
+      "ペイペイ"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "jp.pay2.app.ios",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/49/fc/1f49fcfa-9544-84b5-ada6-457d13b78bea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/49/fc/1f49fcfa-9544-84b5-ada6-457d13b78bea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "896130944",
+    "name": "Mercari",
+    "symbol": "bag.fill",
+    "schemes": [
+      "mercari://"
+    ],
+    "webHosts": [
+      "www.mercari.com",
+      "mercari.com"
+    ],
+    "aliases": [
+      "Mercari",
+      "メルカリ"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.mercariapp.ios.mercari",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/44/cd/4344cdde-1b16-e9fb-d1cc-93c76b03ad73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/44/cd/4344cdde-1b16-e9fb-d1cc-93c76b03ad73/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "1495930546",
+    "name": "Rakuten",
+    "symbol": "bag.fill",
+    "schemes": [
+      "rakuten://"
+    ],
+    "webHosts": [
+      "www.rakuten.co.jp",
+      "rakuten.co.jp"
+    ],
+    "aliases": [
+      "Rakuten",
+      "楽天"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "jp.co.rakuten.fashion",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/f4/e3/5cf4e3c8-ae66-4b65-2196-b774dec44414/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/f4/e3/5cf4e3c8-ae66-4b65-2196-b774dec44414/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "404529222",
+    "name": "ZOZOTOWN",
+    "symbol": "bag.fill",
+    "schemes": [
+      "zozotown://"
+    ],
+    "webHosts": [
+      "zozo.jp"
+    ],
+    "aliases": [
+      "ZOZOTOWN",
+      "ゾゾタウン"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "jp.zozo.zozotown",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/eb/31/d7eb3182-2900-45f0-970a-9aafc8162bd8/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/eb/31/d7eb3182-2900-45f0-970a-9aafc8162bd8/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "smartnews",
+    "name": "SmartNews",
+    "symbol": "newspaper.fill",
+    "schemes": [
+      "smartnews://"
+    ],
+    "webHosts": [
+      "www.smartnews.com",
+      "smartnews.com"
+    ],
+    "aliases": [
+      "SmartNews",
+      "スマートニュース"
+    ],
+    "categories": [
+      "news"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "cookpad",
+    "name": "Cookpad",
+    "symbol": "book.fill",
+    "schemes": [
+      "cookpad://"
+    ],
+    "webHosts": [
+      "cookpad.com"
+    ],
+    "aliases": [
+      "Cookpad",
+      "クックパッド"
+    ],
+    "categories": [
+      "lifestyle"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "414478124",
+    "name": "WeChat",
+    "symbol": "message.fill",
+    "schemes": [
+      "weixin://",
+      "wechat://"
+    ],
+    "webHosts": [
+      "weixin.qq.com",
+      "wechat.com"
+    ],
+    "aliases": [
+      "WeChat",
+      "微信"
+    ],
+    "categories": [
+      "social",
+      "messaging",
+      "payment"
+    ],
+    "bundleId": "com.tencent.xin",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/ad/eb/80adeb0e-5580-f51e-d0d0-64564029fb46/AppIcon-0-0-1x_U007epad-0-6-0-sRGB-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/ad/eb/80adeb0e-5580-f51e-d0d0-64564029fb46/AppIcon-0-0-1x_U007epad-0-6-0-sRGB-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "333206289",
+    "name": "Alipay",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "alipay://"
+    ],
+    "webHosts": [
+      "www.alipay.com",
+      "alipay.com"
+    ],
+    "aliases": [
+      "Alipay",
+      "支付宝"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "com.alipay.iphoneclient",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/a0/6e/66a06e2b-a897-bb82-f0e6-b4708d4db99e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/a0/6e/66a06e2b-a897-bb82-f0e6-b4708d4db99e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "douyin",
+    "name": "Douyin",
+    "symbol": "video.fill",
+    "schemes": [
+      "aweme://"
+    ],
+    "webHosts": [
+      "www.douyin.com",
+      "douyin.com"
+    ],
+    "aliases": [
+      "Douyin",
+      "抖音"
+    ],
+    "categories": [
+      "social",
+      "entertainment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "taobao",
+    "name": "Taobao",
+    "symbol": "bag.fill",
+    "schemes": [
+      "taobao://"
+    ],
+    "webHosts": [
+      "www.taobao.com",
+      "taobao.com"
+    ],
+    "aliases": [
+      "Taobao",
+      "淘宝"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu",
+    "symbol": "globe",
+    "schemes": [
+      "baiduboxapp://"
+    ],
+    "webHosts": [
+      "www.baidu.com",
+      "baidu.com"
+    ],
+    "aliases": [
+      "Baidu",
+      "百度"
+    ],
+    "categories": [
+      "utility",
+      "search"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "qq",
+    "name": "QQ",
+    "symbol": "message.fill",
+    "schemes": [
+      "mqq://"
+    ],
+    "webHosts": [
+      "im.qq.com",
+      "qq.com"
+    ],
+    "aliases": [
+      "QQ",
+      "腾讯QQ"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "meituan",
+    "name": "Meituan",
+    "symbol": "takeoutbag.and.cup.and.straw.fill",
+    "schemes": [
+      "imeituan://"
+    ],
+    "webHosts": [
+      "www.meituan.com",
+      "meituan.com"
+    ],
+    "aliases": [
+      "Meituan",
+      "美团"
+    ],
+    "categories": [
+      "food",
+      "lifestyle"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "326123820",
+    "name": "Didi",
+    "symbol": "car.fill",
+    "schemes": [
+      "diditaxi://"
+    ],
+    "webHosts": [
+      "www.didiglobal.com",
+      "didiglobal.com"
+    ],
+    "aliases": [
+      "Didi",
+      "滴滴"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "bundleId": "com.gulenoconsulting.UDIDit",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/4d/2e/024d2e02-6948-25fb-e965-de714fb10f86/AppIcon-0-0-1x_U007epad-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/4d/2e/024d2e02-6948-25fb-e965-de714fb10f86/AppIcon-0-0-1x_U007epad-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "362057947",
+    "name": "KakaoTalk",
+    "symbol": "message.fill",
+    "schemes": [
+      "kakaotalk://"
+    ],
+    "webHosts": [
+      "www.kakaocorp.com",
+      "kakaocorp.com"
+    ],
+    "aliases": [
+      "KakaoTalk",
+      "카카오톡"
+    ],
+    "categories": [
+      "social",
+      "messaging"
+    ],
+    "bundleId": "com.iwilab.KakaoTalk",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/f2/25/77f22506-20ad-7104-1231-35d2fe63fdb7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/f2/25/77f22506-20ad-7104-1231-35d2fe63fdb7/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "311867728",
+    "name": "Naver",
+    "symbol": "globe",
+    "schemes": [
+      "naver://"
+    ],
+    "webHosts": [
+      "www.naver.com",
+      "naver.com"
+    ],
+    "aliases": [
+      "Naver",
+      "네이버"
+    ],
+    "categories": [
+      "utility",
+      "search"
+    ],
+    "bundleId": "com.nhncorp.NaverMap",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/e3/6c/9de36c7b-5478-461a-32c7-0853717f90b3/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/e3/6c/9de36c7b-5478-461a-32c7-0853717f90b3/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "coupang",
+    "name": "Coupang",
+    "symbol": "bag.fill",
+    "schemes": [
+      "coupang://"
+    ],
+    "webHosts": [
+      "www.coupang.com",
+      "coupang.com"
+    ],
+    "aliases": [
+      "Coupang",
+      "쿠팡"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "kakaopay",
+    "name": "KakaoPay",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "kakaopay://"
+    ],
+    "webHosts": [
+      "pay.kakao.com"
+    ],
+    "aliases": [
+      "KakaoPay",
+      "카카오페이"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "paytm",
+    "name": "Paytm",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "paytm://"
+    ],
+    "webHosts": [
+      "paytm.com"
+    ],
+    "aliases": [
+      "Paytm"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "phonepe://"
+    ],
+    "webHosts": [
+      "www.phonepe.com",
+      "phonepe.com"
+    ],
+    "aliases": [
+      "PhonePe"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "jio-saavn",
+    "name": "JioSaavn",
+    "symbol": "music.note",
+    "schemes": [
+      "jiosaavn://"
+    ],
+    "webHosts": [
+      "www.jiosaavn.com",
+      "jiosaavn.com"
+    ],
+    "aliases": [
+      "JioSaavn",
+      "Saavn"
+    ],
+    "categories": [
+      "entertainment",
+      "music"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "flipkart",
+    "name": "Flipkart",
+    "symbol": "bag.fill",
+    "schemes": [
+      "flipkart://"
+    ],
+    "webHosts": [
+      "www.flipkart.com",
+      "flipkart.com"
+    ],
+    "aliases": [
+      "Flipkart"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "1671507777",
+    "name": "Ola",
+    "symbol": "car.fill",
+    "schemes": [
+      "olacabs://"
+    ],
+    "webHosts": [
+      "www.olacabs.com",
+      "olacabs.com"
+    ],
+    "aliases": [
+      "Ola"
+    ],
+    "categories": [
+      "transportation"
+    ],
+    "bundleId": "com.cottongame.pumpkintown",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/99/d1/0399d1bd-0d59-4e1e-3d69-5a673006626c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/99/d1/0399d1bd-0d59-4e1e-3d69-5a673006626c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "647268330",
+    "name": "Grab",
+    "symbol": "car.fill",
+    "schemes": [
+      "grab://"
+    ],
+    "webHosts": [
+      "www.grab.com",
+      "grab.com"
+    ],
+    "aliases": [
+      "Grab"
+    ],
+    "categories": [
+      "transportation",
+      "food"
+    ],
+    "bundleId": "com.grabtaxi.iphone",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/24/bf/3e24bf1a-1490-b7f5-2fc7-36ab8d76d58c/GrabIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/24/bf/3e24bf1a-1490-b7f5-2fc7-36ab8d76d58c/GrabIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee",
+    "symbol": "bag.fill",
+    "schemes": [
+      "shopee://"
+    ],
+    "webHosts": [
+      "shopee.com"
+    ],
+    "aliases": [
+      "Shopee"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "gojek",
+    "name": "Gojek",
+    "symbol": "car.fill",
+    "schemes": [
+      "gojek://"
+    ],
+    "webHosts": [
+      "www.gojek.com",
+      "gojek.com"
+    ],
+    "aliases": [
+      "Gojek"
+    ],
+    "categories": [
+      "transportation",
+      "food"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "lazada",
+    "name": "Lazada",
+    "symbol": "bag.fill",
+    "schemes": [
+      "lazada://"
+    ],
+    "webHosts": [
+      "www.lazada.com",
+      "lazada.com"
+    ],
+    "aliases": [
+      "Lazada"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "nubank",
+    "name": "Nubank",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "nubank://"
+    ],
+    "webHosts": [
+      "nubank.com.br"
+    ],
+    "aliases": [
+      "Nubank"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "ifood",
+    "name": "iFood",
+    "symbol": "takeoutbag.and.cup.and.straw.fill",
+    "schemes": [
+      "ifood://"
+    ],
+    "webHosts": [
+      "www.ifood.com.br",
+      "ifood.com.br"
+    ],
+    "aliases": [
+      "iFood"
+    ],
+    "categories": [
+      "food"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "463624852",
+    "name": "Mercado Libre",
+    "symbol": "bag.fill",
+    "schemes": [
+      "mercadolibre://"
+    ],
+    "webHosts": [
+      "www.mercadolibre.com",
+      "mercadolibre.com"
+    ],
+    "aliases": [
+      "Mercado Libre"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "com.3mosquitos.MercadoLibre",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/6f/c7/106fc725-181a-e7d6-62ac-b052392fa281/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/10/6f/c7/106fc725-181a-e7d6-62ac-b052392fa281/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "vkontakte",
+    "name": "VKontakte",
+    "symbol": "person.2.fill",
+    "schemes": [
+      "vk://"
+    ],
+    "webHosts": [
+      "vk.com"
+    ],
+    "aliases": [
+      "VK",
+      "VKontakte",
+      "ВКонтакте"
+    ],
+    "categories": [
+      "social"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "313877526",
+    "name": "Yandex",
+    "symbol": "globe",
+    "schemes": [
+      "yandex://"
+    ],
+    "webHosts": [
+      "yandex.com",
+      "yandex.ru"
+    ],
+    "aliases": [
+      "Yandex",
+      "Яндекс"
+    ],
+    "categories": [
+      "utility",
+      "search"
+    ],
+    "bundleId": "ru.yandex.traffic",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/20/59/4e20591e-35c0-749c-7cf5-5d64fa86d609/AppIcon-0-0-1x_U007epad-0-1-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/20/59/4e20591e-35c0-749c-7cf5-5d64fa86d609/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png"
+  },
+  {
+    "id": "sberbank",
+    "name": "Sberbank",
+    "symbol": "creditcard.fill",
+    "schemes": [
+      "sberbank://"
+    ],
+    "webHosts": [
+      "www.sberbank.ru",
+      "sberbank.ru"
+    ],
+    "aliases": [
+      "Sberbank",
+      "Сбербанк"
+    ],
+    "categories": [
+      "finance",
+      "payment"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "wildberries",
+    "name": "Wildberries",
+    "symbol": "bag.fill",
+    "schemes": [
+      "wildberries://"
+    ],
+    "webHosts": [
+      "www.wildberries.ru",
+      "wildberries.ru"
+    ],
+    "aliases": [
+      "Wildberries",
+      "Вайлдберриз"
+    ],
+    "categories": [
+      "shopping"
+    ],
+    "bundleId": "",
+    "iconUrlSmall": "",
+    "iconUrlLarge": ""
+  },
+  {
+    "id": "547145938",
+    "name": "にゃんこ大戦争",
+    "symbol": "gamecontroller.fill",
+    "schemes": [
+      "battlecats://"
+    ],
+    "webHosts": [
+      "ponos.jp"
+    ],
+    "aliases": [
+      "にゃんこ大戦争",
+      "The Battle Cats",
+      "バトルキャッツ"
+    ],
+    "categories": [
+      "game"
+    ],
+    "bundleId": "jp.co.ponos.battlecats",
+    "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/1d/b1/0d1db110-11bd-a3b3-774b-251a629235a2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/53x53bb.png",
+    "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/1d/b1/0d1db110-11bd-a3b3-774b-251a629235a2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.png"
+  }
+]
