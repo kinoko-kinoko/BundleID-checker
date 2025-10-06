@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "Facebook",
+      "id": 284882215,
+      "bundleID": "com.facebook.Facebook",
+      "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ff/c0/78ffc0c9-8baa-2908-da5a-0bf06065e3b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/60x60bb.jpg",
+      "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/ff/c0/78ffc0c9-8baa-2908-da5a-0bf06065e3b6/Icon-Production-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg"
+    },
+    {
+      "name": "Instagram",
+      "id": 389801252,
+      "bundleID": "com.burbn.instagram",
+      "iconUrlSmall": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/df/7c/7fdf7c64-d78d-33ca-707f-e2147e91e498/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/60x60bb.jpg",
+      "iconUrlLarge": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/df/7c/7fdf7c64-d78d-33ca-707f-e2147e91e498/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.jpg"
+    }
+  ]
+}

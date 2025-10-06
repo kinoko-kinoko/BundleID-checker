@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "Facebook",
+      "id": "",
+      "bundleID": "",
+      "iconUrlSmall": "",
+      "iconUrlLarge": ""
+    },
+    {
+      "name": "Instagram",
+      "id": "",
+      "bundleID": "",
+      "iconUrlSmall": "",
+      "iconUrlLarge": ""
+    }
+  ]
+}
