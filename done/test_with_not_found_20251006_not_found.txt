@@ -1,5 +1,5 @@
 Total apps processed: 2
-Apps not found: 1
+Apps not found or incomplete: 1
 
-Information could not be found for the following apps:
-ID: 12345, Name: ThisAppDoesNotExist12345
+The following apps have missing information:
+ID: 12345, Name: ThisAppDoesNotExist12345, Missing fields: bundleID, iconUrlSmall, iconUrlLarge

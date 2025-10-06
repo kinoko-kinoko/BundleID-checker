@@ -7,33 +7,38 @@ from datetime import datetime
 SEARCH_DIR = 'search'
 DONE_DIR = 'done'
 NOT_FOUND_LOG_DIR = 'done'
-API_ENDPOINT = 'https://itunes.apple.com/search'
+LOOKUP_API_ENDPOINT = 'https://itunes.apple.com/lookup'
+SEARCH_API_ENDPOINT = 'https://itunes.apple.com/search'
 
-def search_app_info(app_name):
+def get_app_info(app_id=None, app_name=None):
     """
-    iTunes Search APIを使用してアプリ情報を検索する
+    iTunes APIを使用してアプリ情報を検索する (lookup or search)
     """
-    params = {
-        'term': app_name,
-        'country': 'jp',
-        'media': 'software',
-        'entity': 'software',
-        'limit': 1  # 最も関連性の高い結果を1つだけ取得
-    }
+    if app_id:
+        print(f"Looking up app info with ID: {app_id}")
+        params = {'id': app_id, 'country': 'jp', 'entity': 'software'}
+        api_url = LOOKUP_API_ENDPOINT
+    elif app_name:
+        print(f"Searching for app info with name: {app_name}")
+        params = {'term': app_name, 'country': 'jp', 'media': 'software', 'entity': 'software', 'limit': 1}
+        api_url = SEARCH_API_ENDPOINT
+    else:
+        return None
+
     try:
-        response = requests.get(API_ENDPOINT, params=params)
-        response.raise_for_status()  # HTTPエラーがあれば例外を発生させる
+        response = requests.get(api_url, params=params)
+        response.raise_for_status()
         data = response.json()
-        if data['resultCount'] > 0:
+        if data.get('resultCount', 0) > 0:
             result = data['results'][0]
             return {
-                'id': result.get('trackId', ''),
-                'bundleID': result.get('bundleId', ''),
-                'iconUrlSmall': result.get('artworkUrl60', ''),
-                'iconUrlLarge': result.get('artworkUrl100', '')
+                'id': result.get('trackId'),
+                'bundleID': result.get('bundleId'),
+                'iconUrlSmall': result.get('artworkUrl60'),
+                'iconUrlLarge': result.get('artworkUrl100')
             }
     except requests.exceptions.RequestException as e:
-        print(f"Error fetching data for {app_name}: {e}")
+        print(f"Error fetching data for app ({app_id or app_name}): {e}")
     return None
 
 def process_json_file(filepath):
@@ -58,33 +63,38 @@ def process_json_file(filepath):
     total_apps_count = len(apps_to_process)
 
     for app in apps_to_process:
-        app_name = app.get('name')
-        if not app_name:
-            continue
-
         # Check if any of the required fields are empty
-        if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
-            print(f"Fetching info for {app_name}...")
-            # API制限を避けるために3〜5秒のランダムな待機
+        if not all(app.get(key) for key in ['id', 'bundleID', 'iconUrlSmall', 'iconUrlLarge']):
             wait_time = random.uniform(3, 5)
-            print(f"Waiting for {wait_time:.2f} seconds...")
+            print(f"Waiting for {wait_time:.2f} seconds before next API call...")
             time.sleep(wait_time)
 
-            info = search_app_info(app_name)
+            info = get_app_info(app_id=app.get('id'), app_name=app.get('name'))
 
             if info:
                 app['id'] = info.get('id') or app.get('id')
                 app['bundleID'] = info.get('bundleID') or app.get('bundleID')
                 app['iconUrlSmall'] = info.get('iconUrlSmall') or app.get('iconUrlSmall')
                 app['iconUrlLarge'] = info.get('iconUrlLarge') or app.get('iconUrlLarge')
-                print(f"API call for {app_name} processed.")
+                print(f"API call for '{app.get('name')}' processed.")
 
     # After attempting to update all apps, check which ones are still incomplete.
     not_found_apps = []
     for app in apps_to_process:
-        if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
-            not_found_apps.append({'name': app.get('name', 'Unknown'), 'id': app.get('id', '')})
-            print(f"Info for '{app.get('name')}' remains incomplete.")
+        missing_fields = []
+        if not app.get('id'): missing_fields.append('id')
+        if not app.get('bundleID'): missing_fields.append('bundleID')
+        if not app.get('iconUrlSmall'): missing_fields.append('iconUrlSmall')
+        if not app.get('iconUrlLarge'): missing_fields.append('iconUrlLarge')
+
+        if missing_fields:
+            details = {
+                'name': app.get('name', 'Unknown'),
+                'id': app.get('id', ''),
+                'missing': ', '.join(missing_fields)
+            }
+            not_found_apps.append(details)
+            print(f"Info for '{details['name']}' remains incomplete. Missing: {details['missing']}")
 
     if is_dict_format:
         data['apps'] = apps_to_process
@@ -123,10 +133,10 @@ def main():
                 log_filepath = os.path.join(NOT_FOUND_LOG_DIR, log_filename)
                 with open(log_filepath, 'w', encoding='utf-8') as f:
                     f.write(f"Total apps processed: {total_apps_count}\n")
-                    f.write(f"Apps not found: {len(not_found_apps)}\n\n")
-                    f.write("Information could not be found for the following apps:\n")
+                    f.write(f"Apps not found or incomplete: {len(not_found_apps)}\n\n")
+                    f.write("The following apps have missing information:\n")
                     for app in not_found_apps:
-                        f.write(f"ID: {app['id']}, Name: {app['name']}\n")
+                        f.write(f"ID: {app['id']}, Name: {app['name']}, Missing fields: {app['missing']}\n")
                 print(f"Saved not-found log to {log_filepath}")
 
 if __name__ == '__main__':
