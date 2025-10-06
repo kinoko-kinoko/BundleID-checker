@@ -45,38 +45,52 @@ def process_json_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    apps_to_process = []
+    is_dict_format = False
+
+    if isinstance(data, dict) and 'apps' in data and isinstance(data['apps'], list):
+        apps_to_process = data['apps']
+        is_dict_format = True
+    elif isinstance(data, list):
+        apps_to_process = data
+    else:
+        print(f"Warning: Skipping {filepath} due to unrecognized JSON format.")
+        return data, []
+
     updated_apps = []
-    if 'apps' in data and isinstance(data['apps'], list):
-        for app in data['apps']:
-            app_name = app.get('name')
-            if not app_name:
-                updated_apps.append(app)
-                continue
-
-            # Check if any of the required fields are empty
-            if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
-                print(f"Fetching info for {app_name}...")
-                # API制限を避けるために3〜5秒のランダムな待機
-                wait_time = random.uniform(3, 5)
-                print(f"Waiting for {wait_time:.2f} seconds...")
-                time.sleep(wait_time)
-
-                info = search_app_info(app_name)
-
-                if info:
-                    app['id'] = info.get('id', app.get('id'))
-                    app['bundleID'] = info.get('bundleID', app.get('bundleID'))
-                    app['iconUrlSmall'] = info.get('iconUrlSmall', app.get('iconUrlSmall'))
-                    app['iconUrlLarge'] = info.get('iconUrlLarge', app.get('iconUrlLarge'))
-                    print(f"Successfully updated {app_name}.")
-                else:
-                    not_found_apps.append({'name': app_name, 'id': app.get('id', '')})
-                    print(f"Could not find info for {app_name}.")
-
+    for app in apps_to_process:
+        app_name = app.get('name')
+        if not app_name:
             updated_apps.append(app)
+            continue
 
-    data['apps'] = updated_apps
-    return data, not_found_apps
+        # Check if any of the required fields are empty
+        if not all([app.get('id'), app.get('bundleID'), app.get('iconUrlSmall'), app.get('iconUrlLarge')]):
+            print(f"Fetching info for {app_name}...")
+            # API制限を避けるために3〜5秒のランダムな待機
+            wait_time = random.uniform(3, 5)
+            print(f"Waiting for {wait_time:.2f} seconds...")
+            time.sleep(wait_time)
+
+            info = search_app_info(app_name)
+
+            if info:
+                app['id'] = info.get('id', app.get('id'))
+                app['bundleID'] = info.get('bundleID', app.get('bundleID'))
+                app['iconUrlSmall'] = info.get('iconUrlSmall', app.get('iconUrlSmall'))
+                app['iconUrlLarge'] = info.get('iconUrlLarge', app.get('iconUrlLarge'))
+                print(f"Successfully updated {app_name}.")
+            else:
+                not_found_apps.append({'name': app_name, 'id': app.get('id', '')})
+                print(f"Could not find info for {app_name}.")
+
+        updated_apps.append(app)
+
+    if is_dict_format:
+        data['apps'] = updated_apps
+        return data, not_found_apps
+    else:
+        return updated_apps, not_found_apps
 
 def main():
     """
